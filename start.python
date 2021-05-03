@@ -1,0 +1,9 @@
+s=input('enter name')
+m=''
+for i in s:
+    m=i+m
+
+if s==m:
+    print('it is palindrome')
+else:
+    print('it is not palindrome')
